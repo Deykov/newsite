@@ -1,3 +1,29 @@
+/*
+*Custom fonts*
+*/
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/pn-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url('../fonts/pn-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('../fonts/pn-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 html,
 button,
 input,
@@ -77,20 +103,50 @@ textarea {
 
 a {
     text-decoration: none;
-    color: #1dace9;
+    color: #e47682;
 }
 
 a:hover {
-    color: #ff2222;
+    color: #cf443e;
 }
 
-.h1 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
+.b-top, .b-contacts {
+    padding: 50px 0 30px;
+    background: #fcf7f3;
+    font-family: 'Proxima Nova Regular', Helvetica, sans-serif;
+    font-size: 20px;
+    color: #323232;
+    text-align: center;
+    line-height: 140%;
+ }
+
+.top__logotext {
+    white-space: nowrap;
+    font-family: 'Proxima Nova Bold', Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    color: #323232;
+    height: 45px;
+}
+
+.top__about {
+    margin: 15px 40px 5px; 
 }
 
 .rama {
+    height: 766px; /* Резервирую место под раму с превью */
     background: #262626;
+}
+
+.contacts__mailto {
+    display: inline-block;
+}
+
+.contacts__vk {
+    position: absolute;
+    left: 45px;
+    bottom: 20px;
 }
 
 

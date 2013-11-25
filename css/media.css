@@ -1,0 +1,46 @@
+@media screen and (max-width: 1100px) {
+
+.box__logo {
+	width: 300px;
+}
+
+.stripe {
+	width: 300px;	
+}
+
+.box__logotext {
+	font-size: 38px;
+	top: -76px;
+	left: 57px;
+}
+
+.box__logotext span {
+	font-size: 18px;
+	padding-bottom: 6px;
+}
+
+.box__about {
+	margin: 25px 40px 5px;
+	font-size: 15px;
+}
+
+.b-live {
+	max-width: 900px;
+}
+
+.instafeed {
+	margin: 35px 0;
+}
+
+.instafeed img{
+    width: 150px;
+}}
+
+
+@media screen and (max-width: 960px) {.b-live {max-width: 750px;}}
+
+@media screen and (max-width: 840px) {.b-live {max-width: 600px;}}
+
+@media screen and (max-width: 680px) {.b-live {max-width: 450px;}}
+
+@media screen and (max-width: 520px) {.b-live {max-width: 300px;}}

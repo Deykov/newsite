@@ -9,7 +9,7 @@ $(function () {
 		loop: true,
 		hash: true,
 		keyboard: true,  
-		nav: 'thumbs',
+		nav: 'dots',
 		thumbBorderWidth: '4',
 		BorderColor: '#ff2222',
 	})
